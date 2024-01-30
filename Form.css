@@ -78,7 +78,8 @@ form{
             flex-direction: column;
         }
     }
-
-    #f{
-        margin-top:0px;
+    body{
+        padding:0px;
+    }
 }
+
