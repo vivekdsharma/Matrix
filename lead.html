@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events Webpage</title>
+    <link rel="stylesheet" href="lead.css">
+    <style>
+        #overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            justify-content: center;
+            align-items: center;
+            z-index: 999;
+            gap: 20px;
+            overflow: hidden;
+
+            ul{
+                background-color: black;
+                border: 5px solid white;
+                border-radius: 10px;
+                color: white;
+                padding: 10px;
+                font-size: 25px;   
+                text-align: left;
+                overflow: hidden;
+            }
+
+            span{
+                margin-top: 15px;
+                align-self: center;
+                align-content: center;
+                background-color: black;
+                border: 5px solid white;
+                border-radius: 10px;
+                height: 10px;
+                width: 200px;
+                color: white;
+                font-size: 50px;
+                cursor: pointer;
+
+                padding: 10px;
+                overflow: hidden;
+
+            }
+        }
+
+        .popup {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="overlay">
+        <div id="popup1" class="popups">
+            <ul  class="ol">
+                <li>
+                   1. Our technical event TwistOfFate is set to take place on 2nd February 2024, starting from 5pm.
+                </li>
+                <li>
+                   2. EParticipants can form teams of up to 3 members or participate individually
+                </li>
+                <li>
+                   3.  Participants are required to bring their own laptops for the event.
+                </li>
+                <li>
+                   4. The event will have a story-based theme, adding an engaging element to the challenge.
+                </li>
+                <li>
+                   5. Teams or individuals have to be the first to successfully navigate through the coding challenge to reach the end. 
+                </li>
+                <li>
+                   6.Any form of cheating and conflicts will result in immediate disqualification.
+                </li>
+                <li>
+                   7.The score for each question or task is pre-determined and will be revealed at the conclusion of the event.
+                </li>
+                <li>
+                   8. The winning team is either the one with the highest overall score or the first to successfully complete the entire coding challenge
+                </li>
+                
+            </ul>
+            <span id="closeBtn" onclick="closePopup()">Close</span>
+        </div>
+    
+        <div id="popup2" class="popups">
+            <ul  class="ol">
+                <li>
+                   1. Sage Sprint is a thrilling quiz event happening on February 3, 2024 from 4pm onwards
+                </li>
+                <li>
+                   2. Teams should consist of 2-3 members for participation in the Sage Sprint.
+                </li>
+                <li>
+                   3. Inter-year teams are welcome to join in the excitement.
+                </li>
+                <li>
+                   4. Only the team leader is required to complete the registration form.
+                </li>
+                <li>
+                   5. The event features challenges in four themed zones, involving history, logic puzzles, trivia, and a final frontier. 
+                </li>
+                <li>
+                   6.Teams are encouraged to be quick and spontaneous in their responses throughout the event.
+                </li>
+                <li>
+                   7.The leaderboard dynamically changes based on points earned by teams.
+                </li>
+                <li>
+                   8. Sage Sprint is an intra-college event, and registrations are accepted for teams only.
+                </li>
+                <li>
+                      In case of any discrepancy or conflict, the Organizing Team's decision will be final and binding.
+                </li>
+            </ul>
+            <span id="closeBtn" onclick="closePopup()">Close</span>
+        </div>
+    
+        <div id="popup3" class="popups">
+            
+            
+            
+            <ul  class="ol">
+                <li>
+                   1. ELM STREET is an offline mystery based CTF conducted by LEAD on 4th February 2024 from 4 pm onwards.
+                </li>
+                <li>
+                   2. Each team should comprise 3-4 members only.
+                </li>
+                <li>
+                   3. Inter-year teams are allowed in the event.
+                </li>
+                <li>
+                   4. Only the team leader needs to fill out the registration form.
+                </li>
+                <li>
+                   5. The event will include solving mysteries, decoding clues and answering technical questions 
+                </li>
+                <li>
+                   6. Teams need to be spontaneous in answering questions to progress in the game.
+                </li>
+                <li>
+                   7. The leaderboard will be dynamic ; teams rankings will keep on  changing depending on the points earned.
+                </li>
+                <li>
+                   8. It's an intra-college event that requires registrations in a team only.
+                </li>
+                <li>
+                      In case of any discrepancy or conflict, the Organizing Team's decision will be final and binding.
+                </li>
+            </ol>
+            
+            <span id="closeBtn" onclick="closePopup()">Close</span>
+        </div>
+    </div>
+    <div id="nav">
+        <img src="/LEAD_white.png" alt="">
+        <div id="right">
+            <a href="/LEAD2/index.html">Home</a>
+            <a href="/EventsWebpage/lead.html">Events</a>
+            <a href="/Sponsers/Sponser.html">Sponsors</a>
+            <a href="/contactonly/website.html">Contact Us</a>
+        </div>
+    </div>
+<!-- <video muted autoplay loop src="Moving Background LWP.mp4" id="Video"></video> -->
+<h1>
+    Events
+</h1>
+<p class="dash">--------------------------------------------------------</p>
+
+<div id="container">
+    <!-- Event 1 -->
+    <div id="first" class="Ev">
+        <h1>Twist Of Fate</h1>
+        <p>A thrilling coding adventure where you decode mysteries, face duels, and earn digital treasures to become the ultimate champion of the coding cosmos!</p>
+        <a href="Form1.html" class="buttons" id="rulebook1">Register</a>
+        <button class="buttons" onclick="showPopup('popup1')">Rulebook</button>
+    </div>
+
+    <!-- Event 2 -->
+    <div id="second" class="Ev" >
+        <h1>Sage Sprint</h1>
+        <p>A 2.5-hour campus quest where teams decode scrolls, navigate mazes, and face rapid-fire trivia in a thrilling journey to become the coveted Sage Sprint Champions!</p>
+        <a href="Form2.html" class="buttons" id="rulebook2">Register</a>
+        <button class="buttons" onclick="showPopup('popup2')">Rulebook</button>
+    </div>
+
+    <!-- Event 3 -->
+    <div id="third" class="Ev">
+        <h1>Elm Street Enigma</h1>
+        <p>An adrenaline-pumping CTF sub-event where participants unravel clues, navigate challenges, and race against time to rescue a missing friend. Will they unlock the secrets of Elm Street before it's too late?</p>
+        <a href="Form3.html" class="buttons" id="rulebook3" class="registerb">Register</a>
+        <button class="buttons" onclick="showPopup('popup3')">Rulebook</button>
+    </div>
+</div>
+
+<script type="text/javascript" src="vanilla-tilt.js"></script>
+<script>
+    function showPopup(popupId) {
+        document.getElementById('overlay').style.display = 'flex';
+        document.getElementById(popupId).style.display = 'block';
+    }
+
+    function closePopup() {
+        document.getElementById('overlay').style.display = 'none';
+
+        // Hide all popups
+        var popups = document.getElementsByClassName('popups');
+        for (var i = 0; i < popups.length; i++) {
+            popups[i].style.display = 'none';
+        }
+    }
+</script>
+<script>
+VanillaTilt.init(document.querySelectorAll(".Ev"), {
+    max: 25,
+    speed: 400
+});
+</script>
+
+</body>
+</html>
