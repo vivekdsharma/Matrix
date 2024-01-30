@@ -6,11 +6,23 @@
     <link rel="stylesheet" href="Form.css">
     <title>Sage Sprint Form</title>
     <style>
-        @media screen and (max-width: 510px) {
-            form{
-                justify-content: space-evenly;
-                margin-top: 2px;
-            }
+       @media screen and (max-width: 510px) {
+    form{
+        /* margin: 5px; */
+        width: 100%;
+        margin-top: 50px;
+        height: 100%;
+        justify-content: space-evenly;
+        
+
+        div{
+            width: 325px;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    
+}
         }
        form{
     height: 100%;
@@ -27,7 +39,7 @@
 </head>
 <body>
     <h1 id="title">Registration Form For Sage Sprint</h1>
-    <div id"f">
+    
     <form action="https://docs.google.com/forms/d/e/1FAIpQLSey2kE202DMZFc4eXusf-u6zjK6MJBbOOUkSFzWVxvWnbbViw/formResponse">
         <div><label for="entry.420534702">Email Address:</label>
         <input type="text" name="entry.420534702"></div>
@@ -65,6 +77,6 @@
         <input type="text" name="entry.1207230396"></div>
         <button type="Submit">Submit</button>
     </form>
-    </div>
+   
 </body>
 </html>
