@@ -173,9 +173,9 @@ p {
   border-radius: 20px;
   transition: 0.4s;
 }
-/* .registerb {
+.registerb {
   padding-top: 100px;
-} */
+}
 
 .buttons:hover {
   width: 250px;
