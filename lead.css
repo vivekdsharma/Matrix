@@ -321,11 +321,8 @@ h2 {
       padding: 0px;
     }
  span {
-      /* Other styles for span (close button) within overlay */
-       /* Show the close button on smaller screens */
-  
-      font-size: 15px; /* Adjust font size as needed */
-      padding: 10px; /* Adjust padding as needed */
+      font-size: 15px;
+      padding: 10px;
       height: fit-content;
       width: fit-content;
       margin: 10px;
