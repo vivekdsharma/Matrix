@@ -17,7 +17,7 @@ body::-webkit-scrollbar-thumb {
   background-color: white;
   border-radius: 50px;
 }
-#ol {
+.ol {
   font-size: 30px;
   color: white;
   text-align: left;
