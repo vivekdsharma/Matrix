@@ -203,9 +203,15 @@
 
 <script type="text/javascript" src="vanilla-tilt.js"></script>
 <script>
-    function showPopup(popupId) {
+   function showPopup(popupId) {
         document.getElementById('overlay').style.display = 'flex';
+        // Hide all popups
+    var popups = document.getElementsByClassName('popups');
+    for (var i = 0; i < popups.length; i++) {
+        popups[i].style.display = 'none';
+    }
         document.getElementById(popupId).style.display = 'block';
+        
     }
 
     function closePopup() {
