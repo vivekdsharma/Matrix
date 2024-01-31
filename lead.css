@@ -314,4 +314,9 @@ h2 {
       padding: 0px;
     font-size:15px;
     }
+  .popups{
+      height: 100%;
+      margin: 0px;
+      padding: 0px;
+    }
 }
