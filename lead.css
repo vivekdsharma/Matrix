@@ -319,14 +319,14 @@ h2 {
       margin: 0px;
       padding: 0px;
     }
-  span {
+ span {
       /* Other styles for span (close button) within overlay */
-      display: inline-block; /* Show the close button on smaller screens */
-      margin: 10px auto; /* Adjust margin as needed */
-      font-size: 20px; /* Adjust font size as needed */
-      padding: 8px 15px; /* Adjust padding as needed */
+       /* Show the close button on smaller screens */
+  
+      font-size: 15px; /* Adjust font size as needed */
+      padding: 10px; /* Adjust padding as needed */
       height: fit-content;
       width: fit-content;
-      
+      margin: 10px;
     }
 }
