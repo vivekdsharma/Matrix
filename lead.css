@@ -309,6 +309,8 @@ h2 {
   }
 
   .ol{
-      height: 100%;
+      height: fit-content;
+      margin: 0;
+      padding: 0px;
     }
 }
