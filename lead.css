@@ -101,19 +101,19 @@ body {
   border-left: 1px solid rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(5px);
   overflow: hidden;
-
-  h1 {
+}
+  .Ev h1 {
     height: 50px;
     font-size: 27px;
     font-weight: 900;
   }
-  p {
+  .Ev p {
     padding-top: 10px;
     height: 200px;
     font-size: 20px;
     text-align: center;
   }
-}
+
 
 #container {
   position: relative;
@@ -124,11 +124,11 @@ body {
   justify-content: space-evenly;
   align-items: center;
   margin-top: 50px;
-
-  a {
+}
+.Ev a {
     text-decoration: none;
   }
-}
+
 
 div {
   display: inline-block;
