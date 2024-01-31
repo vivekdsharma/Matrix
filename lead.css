@@ -316,7 +316,7 @@ h2 {
     font-size:15px;
     }
   .popups{
-      height: 100%;
+      height: fit-content;
       margin: 0px;
       padding: 0px;
     }
