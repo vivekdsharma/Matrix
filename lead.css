@@ -12,11 +12,11 @@ body::-webkit-scrollbar {
   background: black;
 }
 .imgg {
-/*   max-width: 100%; */
+
   display: block;
   margin: 0 auto;
-  height: 550px;
-  width:800px;/* Change height to auto for maintaining aspect ratio */
+  height: 600px;
+  width:800px;
 }
 
 .img3 {
@@ -26,9 +26,9 @@ body::-webkit-scrollbar {
 }
 
 .img3 img {
-  height: 100px;
-  width:400px;/* Change height to auto for maintaining aspect ratio */
-  margin: 0; /* Remove margin or adjust as needed */
+  height:50px;
+  width:300px;
+  margin: 0; 
 }
 .closeBtn {
   margin-top: 15px;
