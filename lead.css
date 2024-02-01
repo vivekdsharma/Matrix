@@ -23,7 +23,7 @@ body::-webkit-scrollbar {
   display: flex;
   justify-content: center;
   align-items: center;
-  height:50px;
+  height:500px;
   width:300px;
   margin: 0; 
 }
