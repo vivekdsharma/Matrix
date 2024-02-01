@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@300&display=swap");
 
 * {
-  overflow-x: hidden;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -17,7 +16,6 @@ body::-webkit-scrollbar {
   height: 500px;
   display: block;
   margin: 0 auto;
-  overflow: none;
 }
 .img3 {
   height: 100%;
