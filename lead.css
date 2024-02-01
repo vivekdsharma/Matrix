@@ -358,12 +358,12 @@ h2 {
   .img3 {
     overflow: none;
     display: inline;
-    height: auto; /* Change height to auto for maintaining aspect ratio */
+    height: 100%; /* Change height to auto for maintaining aspect ratio */
     margin-bottom: 30px;
   }
 
   .imgg {
-    height: auto; /* Change height to auto for maintaining aspect ratio */
+    height: 100%; /* Change height to auto for maintaining aspect ratio */
   }
 }
 }
