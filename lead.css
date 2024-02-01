@@ -363,7 +363,7 @@ h2 {
   }
 
   .imgg {
-    height: 100%; /* Change height to auto for maintaining aspect ratio */
+    height: 100px; /* Change height to auto for maintaining aspect ratio */
   }
 }
 }
