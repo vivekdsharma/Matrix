@@ -13,12 +13,12 @@ body::-webkit-scrollbar {
 }
 .imgg {
   max-width: 100%;
-  height: 500px;
+/*   height: 500px; */
   display: block;
   margin: 0 auto;
 }
 .img3 {
-  height: 100%;
+/*   height: 100%; */
   display: flex;
   
   justify-content: center; /* Center the images horizontally */
@@ -51,12 +51,6 @@ body::-webkit-scrollbar-thumb {
   color: white;
   text-align: left;
 }
-
-/* #closeBtn{
-
-  margin-top: 25px;
-  align-items: center;
-} */
 
 #nav {
   width: 100%;
