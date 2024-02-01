@@ -18,9 +18,17 @@ body::-webkit-scrollbar {
   display: block;
   margin: 0 auto;
 }
-.img3{
+.img3 {
   height: 10rem;
-  display:flex;
+  display: flex;
+  justify-content: center; /* Center the images horizontally */
+  align-items: center; /* Center the images vertically */
+}
+
+.img3 img {
+  max-width: 100%;
+  height: auto; /* Ensure the images maintain their aspect ratio */
+  margin: 0 10px; /* Add margin between the two images */
 }
 
 .closeBtn {
