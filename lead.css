@@ -15,8 +15,8 @@ body::-webkit-scrollbar {
 /*   max-width: 100%; */
   display: block;
   margin: 0 auto;
-  height: 300px;
-  width:400px;/* Change height to auto for maintaining aspect ratio */
+  height: 500px;
+  width:800px;/* Change height to auto for maintaining aspect ratio */
 }
 
 .img3 {
@@ -27,7 +27,7 @@ body::-webkit-scrollbar {
 
 .img3 img {
   height: 300px;
-  width:400px;/* Change height to auto for maintaining aspect ratio */
+  width:500px;/* Change height to auto for maintaining aspect ratio */
   margin: 0; /* Remove margin or adjust as needed */
 }
 .closeBtn {
