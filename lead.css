@@ -21,6 +21,7 @@ body::-webkit-scrollbar {
 .img3 {
   height: 10rem;
   display: flex;
+  flex-direction: column;
   justify-content: center; /* Center the images horizontally */
   align-items: center; /* Center the images vertically */
 }
