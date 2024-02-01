@@ -363,7 +363,8 @@ h2 {
   }
 
   .imgg {
-    height: 500px; /* Change height to auto for maintaining aspect ratio */
+    height: 600px;
+    width:400px/* Change height to auto for maintaining aspect ratio */
   }
 }
 }
