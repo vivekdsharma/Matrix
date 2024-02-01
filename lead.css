@@ -347,7 +347,7 @@ h2 {
     font-size:15px;
     }
   .popups {
-      height: 100%;
+      overflow: none;
       margin: 0px;
       padding: 0px;
     }
