@@ -19,6 +19,10 @@ body::-webkit-scrollbar {
   margin: 0 auto;
   object-fit: cover; /* Ensures the image maintains its aspect ratio */
 }
+.img3{
+  height: 10rem;
+  display:flex;
+}
 
 .closeBtn {
   margin-top: 15px;
