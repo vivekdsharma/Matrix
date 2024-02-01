@@ -358,7 +358,7 @@ h2 {
   .img3 {
     overflow: none;
     display: inline;
-    height: 100px; /* Change height to auto for maintaining aspect ratio */
+    height: 300px; /* Change height to auto for maintaining aspect ratio */
     margin-bottom: 30px;
   }
 
