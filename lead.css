@@ -361,4 +361,5 @@ h2 {
   .img3{
     overflow:hidden;
     display:block;
+    height:fit-content;
 }
