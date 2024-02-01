@@ -361,6 +361,6 @@ h2 {
     }
   .img3{
     overflow:none;
-    display:flex;
-    min-height:50%;
+    display:block;
+    height:50%;
 }
