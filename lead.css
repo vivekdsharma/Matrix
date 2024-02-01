@@ -359,7 +359,7 @@ h2 {
       margin: 10px;
     }
   .img3{
-    overflow:hidden;
+    overflow:none;
     display:block;
-    height:fit-content;
+    height:50%;
 }
