@@ -13,12 +13,10 @@ body::-webkit-scrollbar {
 }
 .imgg {
   max-width: 100%;
-  height: 500px;
   display: block;
   margin: 0 auto;
 }
 .img3 {
-  height: 100%;
   display: flex;
   
   justify-content: center; /* Center the images horizontally */
@@ -27,7 +25,8 @@ body::-webkit-scrollbar {
 
 .img3 img {
   max-width: 100%;
-  height: 100%; /* Ensure the images maintain their aspect ratio */
+  overflow: none;
+ /* Ensure the images maintain their aspect ratio */
   margin: 0  /* Add margin between the two images */
 }
 
