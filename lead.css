@@ -361,7 +361,7 @@ h2 {
     }
   .img3{
     overflow:none;
-    display:block;
+    display:inline;
     height:50%;
     margin-bottom:30px;
 }
