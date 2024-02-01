@@ -23,9 +23,6 @@ body::-webkit-scrollbar {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.img3 img {
   height:50px;
   width:300px;
   margin: 0; 
