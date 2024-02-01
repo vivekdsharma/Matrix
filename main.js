@@ -20,7 +20,7 @@ h4all.forEach(function(elem){
     })
 })
 
-var timerDate = new Date("Feb 2, 2024 00:00:00").getTime();
+var timerDate = new Date("Feb 2, 2024 17:00:00").getTime();
 var x = setInterval(() => {
     var now = new Date().getTime();
     var distance = timerDate - now;
