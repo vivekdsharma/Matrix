@@ -27,8 +27,8 @@ body::-webkit-scrollbar {
 
 .img3 img {
   max-width: 100%;
-  height: 100%; /* Ensure the images maintain their aspect ratio */
-  margin: 0 10px; /* Add margin between the two images */
+  height: fit-content; /* Ensure the images maintain their aspect ratio */
+  margin: 0  /* Add margin between the two images */
 }
 
 .closeBtn {
