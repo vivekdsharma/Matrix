@@ -359,6 +359,6 @@ h2 {
       margin: 10px;
     }
   .img3{
-    height:100%;
+    overflow:hidden;
     display:block;
 }
